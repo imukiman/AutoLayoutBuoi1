@@ -389,8 +389,8 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2K-bY-06V">
-                                <rect key="frame" x="57" y="662" width="300" height="50"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <rect key="frame" x="57" y="652" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.23047938940000001" green="0.41253793239999997" blue="0.75297683479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2J2-Kd-HOH"/>
                                     <constraint firstAttribute="width" constant="300" id="Tjf-6G-HyV"/>
@@ -411,12 +411,15 @@
                             <constraint firstItem="3eK-oJ-gVe" firstAttribute="leading" secondItem="vPl-ix-Ewq" secondAttribute="leading" constant="14" id="efL-UF-Ja9"/>
                             <constraint firstItem="KMv-e5-Rjo" firstAttribute="top" secondItem="vPl-ix-Ewq" secondAttribute="top" id="g3B-Tn-auV"/>
                             <constraint firstItem="osc-m6-UMP" firstAttribute="top" secondItem="3eK-oJ-gVe" secondAttribute="bottom" constant="40" id="ndg-8Q-hUd"/>
-                            <constraint firstItem="d2K-bY-06V" firstAttribute="top" secondItem="osc-m6-UMP" secondAttribute="bottom" constant="90" id="qgC-rb-a22"/>
+                            <constraint firstItem="d2K-bY-06V" firstAttribute="top" secondItem="osc-m6-UMP" secondAttribute="bottom" constant="80" id="qgC-rb-a22"/>
                             <constraint firstItem="d2K-bY-06V" firstAttribute="centerX" secondItem="l4f-PO-qWe" secondAttribute="centerX" id="sKZ-3x-Euc"/>
                             <constraint firstItem="osc-m6-UMP" firstAttribute="centerX" secondItem="l4f-PO-qWe" secondAttribute="centerX" id="sc5-1f-0PG"/>
                             <constraint firstItem="KMv-e5-Rjo" firstAttribute="leading" secondItem="vPl-ix-Ewq" secondAttribute="leading" id="ur7-Nb-DEQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnContinue" destination="d2K-bY-06V" id="xuL-Qo-fce"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cv8-Ka-dPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,9 +474,6 @@
         <image name="share" width="24" height="25"/>
         <image name="star" width="24" height="23"/>
         <image name="vector" width="8" height="14"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

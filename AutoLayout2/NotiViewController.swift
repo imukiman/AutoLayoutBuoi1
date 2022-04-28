@@ -9,8 +9,11 @@ import UIKit
 
 class NotiViewController: UIViewController {
 
+    @IBOutlet weak var btnContinue: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        btnContinue.layer.cornerRadius = 10
 
         // Do any additional setup after loading the view.
     }
